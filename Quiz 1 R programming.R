@@ -15,3 +15,5 @@ mean(subset_data, na.rm = TRUE)
 monthdata <- datafile[datafile$Month == 5, ]
 mean(monthdata$Temp)
 max(monthdata$Ozone)
+
+##dsnjcdscdu

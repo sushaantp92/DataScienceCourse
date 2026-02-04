@@ -16,4 +16,27 @@ monthdata <- datafile[datafile$Month == 5, ]
 mean(monthdata$Temp)
 max(monthdata$Ozone)
 
-##dsnjcdscdu
+## Installing Swirl package 
+install.packages('swirl')
+library(swirl)
+
+## Install R programming course
+install_from_swirl("R Programming")
+
+## Starting with swirl
+swirl()
+
+#Weekly Quiz 
+
+library(datasets)
+data(iris)
+
+?iris
+head(iris)
+apply(iris[, 1:4], 2, mean)
+
+data(mtcars)
+
+?mtcars
+
+with(mtcars,tapply(mpg,cyl,mean))

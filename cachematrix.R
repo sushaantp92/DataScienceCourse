@@ -42,3 +42,8 @@ makeCacheMatrix <- function(x = matrix()) {
   getInverse <- function() inv
   list(set = set, get = get, setInverse = setInverse, getInverse = getInverse)
 }
+
+#Test Check
+a <- 1
+b <- 2
+a+b
